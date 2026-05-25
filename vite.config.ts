@@ -15,14 +15,6 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: false,
-    minify: 'terser',
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'vue-vendor': ['vue', 'vue-router', 'pinia']
-        }
-      }
-    }
+    sourcemap: false
   }
 })
