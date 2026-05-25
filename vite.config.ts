@@ -13,6 +13,7 @@ export default defineConfig({
     port: 5173,
     host: true
   },
+  base: '/equipment-maintenance-system/',
   build: {
     outDir: 'dist',
     sourcemap: false
